@@ -21,7 +21,7 @@ define('DB_NAME', 'honeycreations');
 /** MySQL database username */
 define('DB_USER', 'root');
 
-/** MySQL database password */
+/** MySQL database password - vicky pc */
 define('DB_PASSWORD', 'root#123');
 
 /** MySQL hostname */
