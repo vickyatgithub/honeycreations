@@ -270,12 +270,12 @@ function stickyFooter(){
         var returnWidth = (this.masonry.cols - unusedCols) * this.masonry.columnWidth;
     
         if(returnWidth < page_min_width && jQuery(window).width() > 768){
-            returnWidth = page_min_width
+            returnWidth = '100%'
         }
         
-        current_page_width = returnWidth;
+        current_page_width = '100%';
     } else {
-        returnWidth = current_page_width;
+        returnWidth = '100%';
     }
     
     

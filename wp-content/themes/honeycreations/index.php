@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div id="grid">
+<div id="grid" style="width:100%">
 
 <?php
 /* Run the loop to output the posts.

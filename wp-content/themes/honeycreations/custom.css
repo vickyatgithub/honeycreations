@@ -1,0 +1,13 @@
+/* Any styles you write here will overwrite those of the original stylesheet */
+body
+{
+background: white;
+font: 12px/1.35 "OswaldLight",sans-serif;
+color: #2A2C2C;
+
+overflow-y: scroll;
+}
+#header
+{
+	padding:10px 0 10px 13px;
+}

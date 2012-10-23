@@ -47,6 +47,7 @@ img, video, embed, object, iframe{
 
 .post-content img, .feat-img, .entry img, .page-entry img{
 	height: auto !important;
+	
 }
 
 /* =======================================================================
@@ -481,6 +482,7 @@ body.blog .wrap, #filtering-nav, body.blog .navigation, .isotope{
 ======================================================================= */
 .sort, #sort{
     margin: auto;
+	min-width:100% !important;
 }
 .isotope,
 .isotope .isotope-item {

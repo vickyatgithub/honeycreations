@@ -7,7 +7,7 @@
  * used in loop.php when a post has a post format
  * of "Gallery" assigned to it.
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.6
  * @alter        1.6.2
  *

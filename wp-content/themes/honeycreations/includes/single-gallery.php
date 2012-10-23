@@ -7,7 +7,7 @@
  * when the post has the "Gallery" post format assigned
  * to it.
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.6
  * @alter        1.6.2
  *

@@ -5,7 +5,7 @@
  * Optional file that allows displaying a custom search form
  * when the get_search_form() template tag is used.
  *
- * @package Shaken Grid (Premium)
+ * @packageHoney creations 
  * @since 1.0
  * @alter 1.6
  */

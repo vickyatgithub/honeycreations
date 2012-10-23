@@ -7,7 +7,7 @@
  * when a "Gallery" post is being shown and the
  * slideshow is hidden.
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.6
  * @alter        2.0
  *

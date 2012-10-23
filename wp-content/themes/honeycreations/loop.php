@@ -10,7 +10,7 @@
  * this template may be duplicated inside a child theme
  * and edited there.
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.0
  * @alter        2.1.3
  *
@@ -26,7 +26,7 @@
  */ ?>
 
 <?php if(is_home() && !of_get_option('hide_filters')) { ?>
-	<div id="filtering-nav">
+	<?php /*?><div id="filtering-nav">
 		<a href="#" class="filter-btn"><span><?php _e('Filter', 'shaken'); ?></span></a>
       	<ul>
    			<li><a href="#" data-filter="*"><?php _e('All', 'shaken'); ?></a></li>
@@ -41,7 +41,7 @@
         	<?php } ?>
     	</ul>
         <div class="clearfix"></div>
-	</div><!-- #filtering-nav -->
+	</div><?php */?><!-- #filtering-nav -->
 <?php } ?>
 
 <?php 
@@ -171,7 +171,7 @@ if ( have_posts() ) :
                     <?php endif;
                     
                     // Display View/Share/Comment buttons
-                    if( !of_get_option( 'hide_action_buttons' ) ) :                    
+                   if( !of_get_option( 'hide_action_buttons' ) ) :                    
                     	get_template_part( 'includes/action-buttons' );
                      endif; ?>
                 </div><!-- #img-container -->
@@ -204,16 +204,16 @@ if ( have_posts() ) :
 	                
 	            endif; ?>
 	            
-	            <?php edit_post_link(__('Edit this post', 'shaken')); ?>    
+	            <?php //edit_post_link(__('Edit this post', 'shaken')); ?>    
             </div><!-- #entry -->
             
             <?php // Display post footer
-            if( $my_size != 'col1' ): ?>
-                <div class="post-footer">
+           // if( $my_size != 'col1' ): ?>
+                <?php /*?><div class="post-footer">
                     <span class="category-ic"><?php the_category(', '); ?></span>
                     <a href="<?php echo wp_get_shortlink(); ?>" class="shortlink tooltip" title="Shortlink"><?php _e('Shortlink', 'shaken'); ?></a>
-                </div>
-            <?php endif; ?>
+                </div><?php */?>
+            <?php //endif; ?>
             
         </div><!-- #box-content -->
     </div><!-- #box -->

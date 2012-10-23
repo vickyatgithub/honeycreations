@@ -5,7 +5,7 @@
  * This file outputs the buttons that are displayed
  * when a user hovers over a post on the gallery pages
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        2.0
  * @alter        2.0
  *

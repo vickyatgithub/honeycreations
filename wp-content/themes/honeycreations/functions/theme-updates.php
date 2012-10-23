@@ -2,7 +2,7 @@
 /**
  * Check for theme updates
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        2.0
  * @alter        2.1.3
  *

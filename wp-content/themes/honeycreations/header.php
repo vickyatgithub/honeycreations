@@ -15,7 +15,7 @@
  * template may be duplicated inside a child theme
  * and edited there.
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.0
  * @alter        2.1.3
  *
@@ -135,6 +135,10 @@ if( !of_get_option('disable_fontface') ): ?>
     	#logo{
     		font-family: "<?php echo $logo_ff_name; ?>", "PT Sans", Helvetica, Arial, sans-serif;
     	}
+		.display
+		{
+			display:block !important;
+		}
     </style>
 	
 <?php endif; ?>
@@ -173,7 +177,23 @@ if( !of_get_option('disable_fontface') ): ?>
         
         <?php /* Main Menu */ ?>
         <div class="header-nav">
-        	<?php wp_nav_menu( array( 'theme_location' => 'header', 'container' => '' ) ); ?>
+        	<?php //wp_nav_menu( array( 'theme_location' => 'header', 'container' => '' ) ); ?>
+            <div id="filtering-nav">
+	<!--	<a href="#" class="filter-btn"><span><?php _e('Filter', 'shaken'); ?></span></a>-->
+      	<ul class="display">
+   			<li><a href="#" data-filter="*"><?php _e('Home', 'shaken'); ?></a></li>
+        	<?php
+         	$args=array(
+          		'orderby' => 'name',
+          		'hierarchical' => 0
+          	);
+          	$categories=get_categories($args);
+          	foreach($categories as $category) {  ?>
+            	<li><a href="#" data-filter=".<?php echo $category->category_nicename; ?>"><?php echo $category->name; ?></a></li>
+        	<?php } ?>
+    	</ul>
+        <div class="clearfix"></div>
+	</div>
         </div>
         
         <?php /* Social network links set in Theme Options */ ?>

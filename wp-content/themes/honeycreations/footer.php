@@ -3,11 +3,7 @@
     <div class="wrap">
 	<p><?php _e('Copyright', 'shaken'); ?> &copy; <?php echo date('Y'); ?> <?php echo of_get_option('copyright'); ?> 
 	
-		<?php if(current_theme_supports('shaken_footer_credit')): ?>
-        <span class="alignright">
-            <?php _e('Powered by', 'shaken'); ?> <a href="http://shakenandstirredweb.com/theme/shaken-grid" target="_blank">Shaken Grid Premium</a><br />
-        </span>
-        <?php endif; ?>
+		
         
     </p>
     <div class="clearfix"></div>

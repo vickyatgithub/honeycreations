@@ -2,7 +2,7 @@
 /**
  * Theme Functions
  *
- * @package      Shaken Grid (Premium)
+ * @package     Honey creations 
  * @since        1.0
  * @alter        2.1.3
  *
